@@ -4,8 +4,6 @@ Feature: Default
 	#hr users can edit own profile
 	@SCRUM-1253
 	Scenario Outline: Hr User can edit own Profile
-		@EditProfileHr
-		Scenario Outline: User can edit own profile
 		  Given User is on login page
 		  When User enters username "<username>"
 		  When  User enters password "<password>"
@@ -24,8 +22,6 @@ Feature: Default
 	#hr users can see the Contact Information in own Profile
 	@SCRUM-1254
 	Scenario Outline: hr User can see the Contact Information in own Profile
-		@ContactInformationHr
-		Scenario Outline: User can see the Contact Information in own Profile
 		  Given User is on login page
 		  When User enters username "<username>"
 		  When User enters password "<password>"
@@ -48,8 +44,6 @@ Feature: Default
 	#hr users can see updated personal information after user edits own personal information
 	@SCRUM-1255
 	Scenario Outline: hr User can see updated personal information after user edits own personal information
-		@UpdateInformationHr
-		  Scenario Outline: User can see updated personal information after user edits own personal information
 		  Given User is on login page
 		  When User enters username "<username>"
 		  When User enters password "<password>"
@@ -86,8 +80,6 @@ Feature: Default
 	#helpdesk users can edit own Profile
 	@SCRUM-1256
 	Scenario Outline: helpdesk users can edit own Profile
-		@EditProfileHelpdesk
-		  Scenario Outline: User can edit own profile
 		    Given User is on login page
 		    When User enters username "<username>"
 		    When  User enters password "<password>"
@@ -106,8 +98,6 @@ Feature: Default
 	#helpdesk users can see the Contact Information in own Profile
 	@SCRUM-1257
 	Scenario Outline: helpdesk Users can see the Contact Information in own Profile
-		@ContactInformationHelpdesk
-		  Scenario Outline: User can see the Contact Information in own Profile
 		    Given User is on login page
 		    When User enters username "<username>"
 		    When User enters password "<password>"
@@ -129,8 +119,6 @@ Feature: Default
 	#User can see updated personal information after user edits own personal information
 	@SCRUM-1258
 	Scenario Outline: helpdesk users can see updated personal information after user edits own personal information
-		@UpdateInformationHelpdesk
-		  Scenario Outline: User can see updated personal information after user edits own personal information
 		    Given User is on login page
 		    When User enters username "<username>"
 		    When User enters password "<password>"
@@ -167,8 +155,6 @@ Feature: Default
 	#marketing users can edit own Profile
 	@SCRUM-1259
 	Scenario Outline: marketing users can edit own Profile
-		@EditProfileMarketing
-		  Scenario Outline: User can edit own profile
 		    Given User is on login page
 		    When User enters username "<username>"
 		    When  User enters password "<password>"
@@ -187,8 +173,6 @@ Feature: Default
 	#marketing users can see the Contact Information in own Profile
 	@SCRUM-1260
 	Scenario Outline: marketing users can see the Contact Information in own Profile
-		@ContactInformationMarketing
-		  Scenario Outline: User can see the Contact Information in own Profile
 		    Given User is on login page
 		    When User enters username "<username>"
 		    When User enters password "<password>"
@@ -211,8 +195,6 @@ Feature: Default
 	#marketing users can see updated personal information after user edits own personal information
 	@SCRUM-1261
 	Scenario Outline: marketing users can see updated personal information after user edits own personal information
-		@UpdateInformationMarketing
-		  Scenario Outline: User can see updated personal information after user edits own personal information
 		    Given User is on login page
 		    When User enters username "<username>"
 		    When User enters password "<password>"

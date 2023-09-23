@@ -1,28 +1,17 @@
 package com.cydeo.step_definitions;
 
-import com.cydeo.pages.hrPages;
+import com.cydeo.pages.MyProfilePages;
 import com.cydeo.utilities.BrowserUtils;
-import com.cydeo.utilities.ConfigurationReader;
-import com.cydeo.utilities.Driver;
 import com.github.javafaker.Faker;
-import com.github.javafaker.Options;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.apache.hc.core5.util.Asserts;
-import org.asynchttpclient.util.Assertions;
 import org.junit.Assert;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-import java.time.Duration;
-import java.util.Locale;
-import java.util.TimeZone;
+public class MyProfile_step_definitions {
 
-public class hrUsers_step_definitions {
-
-    hrPages hrPages = new hrPages();
+    MyProfilePages hrPages = new MyProfilePages();
     Faker faker = new Faker();
 
     String email;
