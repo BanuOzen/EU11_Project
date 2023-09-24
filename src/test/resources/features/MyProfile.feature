@@ -1,5 +1,8 @@
 @SCRUM-1262
-Feature: Default
+Feature: My Profile
+	User Story: User can edit own Profile
+	User can see the Contact Information in own Profile
+	User can see updated personal information after user edits own personal information
 
 	#hr users can edit own profile
 	@SCRUM-1253
